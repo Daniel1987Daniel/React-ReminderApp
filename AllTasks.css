@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(25, 25, 100);
+  color: wheat;
+  margin-top: 12vh;
+}
+
+.one-task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(13, 13, 74);
+  border: none;
+  color: whitesmoke;
+  padding: 5px 15px;
+  width: 500px;
+  margin: 10px auto;
+}
+
+.all-tasks {
+  border: none;
+}
+
+.one-task h1 {
+  padding-left: 20px;
+}
+
+.one-task button {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+  background-color: rgb(13, 13, 74);
+  width: 100px;
+  height: 30px;
+  color: aqua;
+  border: none;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.clear-all {
+  border-radius: 5px;
+  margin: 15px;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto;
+  background-color: blue;
+  color: aqua;
+}
